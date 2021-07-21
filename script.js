@@ -1,4 +1,4 @@
-let myApp = angular.module("myList", []);
+let myApp = angular.module("ToDoList", []);
 myApp.controller("myListController", function($scope){
     $scope.items = ["Clean The Car", "Wash The Dishes", "Feed the Cat"];
     $scope.newItem = "";
